@@ -6,7 +6,6 @@
 package com.lumu.sdet.controller;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 /**
  *
@@ -14,7 +13,7 @@ import java.util.Arrays;
  */
 public class Algorithm {
 
-    public void nombrar(ArrayList<String> data) {
+    public void wordFrequencyCounter(ArrayList<String> data) {
         int arraySize = data.size();
         int characters = 0;
         int words = 0;
